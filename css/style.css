@@ -15,6 +15,22 @@ html {
 @media (min-width: 1200px) { 
     .container { width: 1100px }
 }
+
+#container {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    height: 300px;
+    border: 1px solid black;
+}
+
+.box {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+}
+
 h1 {
     font-weight: 600;
 }
@@ -49,7 +65,7 @@ a:focus {
 /* Navigation */
 #menu {
     margin-bottom: 0;
-    background-color: #035570;
+    background-color: #000000;
     padding: 10px 0;
     height: auto;
     border: 0px;
@@ -104,12 +120,12 @@ a:focus {
 #header .breadcrumb > li a { color: #ffffff }
 /* Home Style */
 #home {
-    background: url(../img/bg/01.png);
+    background: url(../img/bg/background.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #828282;
+    color: #000000;
 }
 #home .overlay {
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -272,7 +288,7 @@ a.goto-btn { margin-right: 30px ; border: #fff 1px solid; padding: 12px 18px; co
 }
 /* Intro Section */
 #intro {
-    background-color: #035570;
+    background-color: #ffffff;
     padding: 5% 0;
     color: #ffffff;
     text-align: center;
@@ -362,7 +378,7 @@ h4.media-heading {
 }
 /* About Us */
 #about {
-    background: #035570
+    background: #000000
     ;
     color:#fff;
     padding:80px 0;
@@ -450,7 +466,7 @@ ul.social li a.fa:hover { background-color: #333333 }
     line-height: 20px;
     color: #fff;
     text-align: center;
-    background-color: #267CA5;
+    background-color: #000000;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: width .6s ease;
@@ -596,7 +612,7 @@ ul.social li a.fa:hover { background-color: #333333 }
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
     color: #fff;
-    background-color: #38A5DB;
+    background-color: #000000;
     padding: 25px;
 }
 .nav-pills > li > a { border-radius: 0;}
@@ -944,7 +960,7 @@ ul.metas li a { color: #38A5DB }
 /*********************************
 /* Map Section
 **********************************/
-#contact { padding: 60px 0 ; background-color: #d9eff6    ;}
+#contact { padding: 60px 0 ; background-color: #ffffff    ;}
 #map {
     position: relative;
     width: 100%;
@@ -1009,7 +1025,7 @@ p.help-block.text-danger ul li {
 /* Footer */
 #footer {
     padding: 35px 0 10px;
-    background-color: #035570;
+    background-color: #000000;
     color: #ffffff;
 }
 ul.social li a i {
