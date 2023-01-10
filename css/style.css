@@ -16,21 +16,6 @@ html {
     .container { width: 1100px }
 }
 
-#container {
-    display: flex;              /* establish flex container */
-    flex-direction: column;     /* stack flex items vertically */
-    justify-content: center;    /* center items vertically, in this case */
-    align-items: center;        /* center items horizontally, in this case */
-    height: 300px;
-    border: 1px solid black;
-}
-
-.box {
-    width: 300px;
-    margin: 5px;
-    text-align: center;
-}
-
 h1 {
     font-weight: 600;
 }
